@@ -4,3 +4,161 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 390px;
+    height: 844px;
+    padding-top: 45px; 
+    padding-left: 21px;
+    padding-right: 21px;
+}
+/*********************** header *****************************/
+
+.header {
+    /* background: red; */
+    
+}
+.header_img{
+    width: 352px;
+    height: 34px;
+    /* background: purple; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img1{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    
+}
+.img2{
+    width: 34px;
+    height: 34px;
+    
+}
+/*********************** title header *****************************/
+
+.header_title{
+    /* background: green; */
+    width: 265px;
+    height: 72px;
+    margin-top: 20px;
+    h1{
+        font-size: 30px;
+        font-family: "Inter-SemiBold";
+    }
+} 
+.special {
+    color: var(--color-10);
+}
+/************************ Search ******************************/
+
+.container_nav{
+    /* background: blue; */
+}
+
+.container_search { 
+    /* background: violet; */
+    width: 346px;
+    height: 41px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.search{
+    
+}
+.container_search input{
+    border: none;
+    background: none;
+}
+
+/************************* Scroll ******************************/
+
+.container_scroll {
+    /* background: orange; */
+    gap: 20px;
+    width: 391px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    overflow-x: auto; /* Activa el scroll horizontal */
+    white-space: nowrap; /* Evita que los elementos salten de línea */
+    scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+}
+.container_scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.container_scroll a{
+    flex: 0 0 auto;
+    width: 112px;
+    height: 28px;
+    font-size: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+.spacer {
+    flex: 0 0 21px; /* Ajusta este valor según el espacio que necesites */
+}
+
+.container_scroll a:nth-child(1){
+    background: #EDE9FF;
+}
+.container_scroll a:nth-child(2){
+    background: #FFF5D7; 
+}
+.container_scroll a:nth-child(3){
+    background: #FFECEC;
+}
+.container_scroll a:nth-child(4){
+    background: #E4FFEA;
+}
+
+/*********************** main *************************/
+
+.container_main {
+    background: blue;
+    margin-top: 40px;
+    
+}
+.container_group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+        font-size: 14px;
+        display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    }
+.paragraph{
+        font-size: 12px;
+        display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    }
+
+
+.container_img {
+    background: green;
+    margin-top: 16px;
+}
+.container_list {
+    background: violet;
+}
+.list {
+    background: purple;
+}
+.info {
+    background: orange;
+}
