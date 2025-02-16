@@ -79,7 +79,7 @@ body{
 
 /************************* Scroll ******************************/
 
-.container_scroll {
+.container_scroll1 {
     /* background: orange; */
     gap: 20px;
     width: 391px;
@@ -91,11 +91,11 @@ body{
     white-space: nowrap; /* Evita que los elementos salten de línea */
     scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
 }
-.container_scroll::-webkit-scrollbar {
+.container_scroll1::-webkit-scrollbar {
     display: none;
 }
 
-.container_scroll a{
+.container_scroll1 a{
     flex: 0 0 auto;
     width: 112px;
     height: 28px;
@@ -110,16 +110,16 @@ body{
     flex: 0 0 21px; /* Ajusta este valor según el espacio que necesites */
 }
 
-.container_scroll a:nth-child(1){
+.container_scroll1 a:nth-child(1){
     background: #EDE9FF;
 }
-.container_scroll a:nth-child(2){
+.container_scroll1 a:nth-child(2){
     background: #FFF5D7; 
 }
-.container_scroll a:nth-child(3){
+.container_scroll1 a:nth-child(3){
     background: #FFECEC;
 }
-.container_scroll a:nth-child(4){
+.container_scroll1 a:nth-child(4){
     background: #E4FFEA;
 }
 
@@ -159,26 +159,40 @@ body{
     }
 
 
+.container_scroll2 {
+    /* background: orange; */
+    gap: 10px;
+    width: 346px;
+    height: 186px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    overflow-x: auto; /* Activa el scroll horizontal */
+    white-space: nowrap; /* Evita que los elementos salten de línea */
+    scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+}
+.container_scroll2::-webkit-scrollbar {
+    display: none;
+}
 .container_img {
     background: green;
     width: 346px;
     height: 186px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
     border-radius: 12px;
     position: relative;
     z-index: -1;
+    
 }
 .container_list {
     background: var(--color-6);
-    
-    /*backdrop-filter: blur(8px); /* Difumina el fondo */
     width: 332px;
     height: 90px;
     border-radius: 10px;
     margin-left: 7px;
     margin-top: -100px;
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: center; 
     align-items:center;
     gap: 20px;
     position: absolute;
@@ -195,12 +209,16 @@ body{
 }
 .info1 {
     /* background: orange; */
+    width: 181px;
+    height: 15px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center; 
+    align-items: baseline; 
     gap: 8px;
     img{
-        /* width: 10px;
-        height: 11px; */
+        width: 10px;
+        height: 12px;
+        
     }
     p{
         width: 163px;
@@ -215,13 +233,14 @@ body{
 .info2{
     /* background: yellow; */
     display: flex;
-    /* justify-content: space-between; */
+    width: 128px;
+    height: 15px;
+    justify-content: flex-start; 
+    align-items: baseline; 
     gap: 8px;
     img{
-        color: var(--color-1);
         width: 11px;
-        height: 10px; 
-
+        height: 12px; 
     }
     p{
         width: 109px;
@@ -241,8 +260,7 @@ body{
         height: 12px;
         font-size: 10px;
         font-family: "Inter-Regular";
-        color: var(--color-1);
-        
+        color: var(--color-1); 
     }
     p{
         width: 102px;
@@ -251,7 +269,6 @@ body{
         font-family: "Inter-Semibold";
         color: var(--color-1);
         margin-top: 4px;
-        
     };
 
 }
