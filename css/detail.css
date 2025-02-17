@@ -7,4 +7,118 @@
 body{
     width: 390px;
     height: 844px;
+    background: var(--color-gradient-body);
+}
+.container_main {
+    /* background: red; */
+}
+.container_img {
+    background: url(../storage/img/img-22fondo.png);
+    width: 390px;
+    height: 316px;
+
+}
+.container_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.button1{
+    width: 34px;
+    height: 34px;
+    margin-top: 35px;
+    margin-left: 22px;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+}
+.button2{
+    /* background: red; */
+    width: 16px;
+    height: 4px;
+    margin-top: 45px;
+    margin-right: 25px;
+    border: none;
+}
+.container_summary {
+    background: var(--color-1);
+    width: 346px;
+    height: 140px;
+    margin-top: 176px;
+    margin-left: 22px;
+    padding-top: 18px;
+    padding-left: 20px;
+    border-radius: 14px;
+}
+.container_note {
+    /* background: turquoise; */
+    width: 224px;
+    height: 59px;
+    h3{
+        width: 214px;
+        height: 17px;
+        font-size: 14px;
+        font-family: "Inter-Semibold";
+    }
+}
+.color {
+    color: var(--color-10);
+}
+.note1 {
+    /* background: cadetblue; */
+    width: 224px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6px;
+    gap: 8px;
+    p{
+        font-size: 12px;
+        font-family: "Inter-Regular";
+    }
+}
+.note2 {
+    /* background: teal; */
+    width: 128px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 6px;
+    gap: 8px;
+    p{
+        font-size: 12px;
+        font-family: "Inter-Regular";
+    }
+}
+.container_log {
+    /* background: orange; */
+    width: 171px;
+    height: 28px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.log_img{
+    /* background: purple; */
+    display: flex;
+    flex-direction: row;
+}
+.log{
+    object-fit: cover;
+    margin-left: -15px; /* Superposición */
+}
+.log_text{
+    /* background: yellowgreen; */
+    h2{
+        width: 103px;
+        height: 15px;
+        font-size: 12px;
+        font-family: "Inter-Medium";
+    }
 }

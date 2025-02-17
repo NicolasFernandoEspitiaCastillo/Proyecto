@@ -12,7 +12,7 @@
     --color-8: #22227E;
     --color-9: #751F8B;
     --color-10: #761CBC;
-    
+    --color-gradient-body: linear-gradient(90deg, #faffff, #fdfcfe);
 }
 
  /************ Colors Detail  ************/
