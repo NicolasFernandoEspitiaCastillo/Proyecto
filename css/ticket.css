@@ -40,23 +40,22 @@ body{
     }
 }
 .container_scroll{
-    /* background: red; */
-    width: 392px;
+    /* background: red;  */
+    width: 380px;
     height: 663px;
     display: flex;
-    margin-left: 15px;
     gap: 15px;
     flex-direction: row;
     margin-top: 15px;
     overflow-x: auto; /* Activa el scroll horizontal */
     white-space: nowrap; /* Evita que los elementos salten de línea */
     scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
-}
+} 
 .container_main {
     background: var(--color-20);
-    width: 367px;
+    width: 343px;
     height: 596px;
-    margin-left: 10px;
+    margin-left: 22px;
     margin-top: 46px;
     padding-top: 17px;
     padding-left: 18px;
@@ -64,7 +63,7 @@ body{
 }
 .img_ticket {
     /* background: violet; */
-    width: 311px;
+    width: 305px;
     height: 159px;
     border-radius: 14px;
     display: flex;
@@ -81,16 +80,18 @@ body{
     h1{
         font-size: 18px;
         font-family: "Inter-Semibold";
-        width: 275px;
+        /* width: 275px; */
         height: 22px;
+        font-weight: 100;
     }
     p{
         font-size: 12px;
         font-family: "Inter-Regular";
-        width: 295px;
+        /* width: 295px; */
         height: 32px;
         color: var(--color-19);
         margin-top: 8px;
+        font-weight: 100;
     }
 }
 .container_text {
@@ -113,26 +114,30 @@ body{
         font-size: 12px;
         font-family: "Inter-Medium";
         color: var(--color-19);
+        font-weight: 100;
     }
     p{
         font-size: 14px;
         font-family: "Inter-Semibold";
-        width: 275px;
+        /* width: 275px; */
         height: 22px;
         color: var(--color-18);
+        font-weight: 100;
     }
 }
 .line{
-    margin-left: -19px;
+    margin-left: -20px;
+    /* margin-right: -2px; */
     margin-top: 11px;
-    width: 348px;
+    /* width: 1; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .code{
-    margin-left: 17px;
+    margin-left: 18px;
     margin-top: 6px;
+
 }
 .paragraph{
     width: 209px;
@@ -144,6 +149,8 @@ body{
         margin-top: 16px;
         margin-left: 50px;
         color: var(--color-18);
+        white-space: nowrap;
+        font-weight: 100;
     }
     
 }

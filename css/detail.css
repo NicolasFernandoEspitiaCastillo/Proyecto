@@ -57,10 +57,13 @@ body{
     width: 224px;
     height: 59px;
     h3{
-        width: 214px;
+        /* width: 280px; */
         height: 17px;
         font-size: 14px;
         font-family: "Inter-Semibold";
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: 100;
     }
 }
 .color {
@@ -78,6 +81,7 @@ body{
     p{
         font-size: 12px;
         font-family: "Inter-Regular";
+        font-weight: 100;
     }
 }
 .note2 {
@@ -92,6 +96,7 @@ body{
     p{
         font-size: 12px;
         font-family: "Inter-Regular";
+        font-weight: 100;
     }
 }
 .container_log {
@@ -117,10 +122,11 @@ body{
 .log_text{
     /* background: yellowgreen; */
     h2{
-        width: 103px;
+        /* width: 103px; */
         height: 15px;
         font-size: 12px;
         font-family: "Inter-Medium";
+        font-weight: 100;
     }
 }
 .container_description{
@@ -133,14 +139,16 @@ body{
         font-size: 14px;
         font-family: "Inter-Medium";
         color: var(--color-11);
-        width: 77px;
+        /* width: 77px; */
         height: 27px;
+        font-weight: 100;
     }
     p{
         width: 346px;
-        height: 108px;
+        /* height: 108px; */
         font-size: 12px;
         font-family: "Inter-Regular";
+        font-weight: 100;
     }
     a{
         text-decoration: none;
@@ -153,10 +161,11 @@ body{
     margin-left: 22px;
     margin-top: 28px;
     h2{
-        width: 117px;
+        /* width: 117px; */
         height: 17px;
         font-size: 14px;
         font-family: "Inter-Medium";
+        font-weight: 100;
     }
     img{
         width: 346px;
@@ -180,11 +189,12 @@ body{
     height: 35px;
     margin-left: 22px;
     h4{
-        width: 48px;
+        /* width: 48px; */
         height: 12px;
         font-size: 10px;
         font-family: "Inter-Regular";
         color: var(--color-11); 
+        font-weight: 100;
     }
     p{
         width: 102px;
@@ -193,6 +203,7 @@ body{
         font-family: "Inter-Semibold";
         color: var(--color-11);
         margin-top: 4px;
+        font-weight: 100;
     };
 }
 .footer_button{
@@ -205,6 +216,5 @@ body{
         background: var(--color-10);
         font-size: 14px;
         color: var(--color-1);
-
     }
 }

@@ -22,7 +22,6 @@ body{
 .header_img{
     width: 352px;
     height: 34px;
-    /* background: purple; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -46,9 +45,11 @@ body{
     width: 265px;
     height: 72px;
     margin-top: 20px;
+    margin-bottom: 20px;
     h1{
         font-size: 30px;
         font-family: "Inter-SemiBold";
+        font-weight: 100;
     }
 } 
 .special {
@@ -70,6 +71,9 @@ body{
     align-items: center;
     padding-left: 12px;
     padding-right: 12px;
+    background: var(--color-1);
+    border-radius: 10px;
+    margin-bottom: 16px;
 }
 .search{
     
@@ -88,8 +92,7 @@ body{
     height: 28px;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    overflow-x: auto; /* Activa el scroll horizontal */
+    overflow-x: scroll; /* Activa el scroll horizontal */
     white-space: nowrap; /* Evita que los elementos salten de línea */
     scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
 }
@@ -98,6 +101,7 @@ body{
 }
 
 .container_scroll1 a{
+    
     flex: 0 0 auto;
     font-size: 12px;
     border-radius: 8px;
@@ -151,13 +155,18 @@ body{
     margin-top: 40px;
 }
 .title{
+    /* background: red; */
     font-size: 9px;
-    width: 106px;
+    /* width: 115px; */
     font-family: "Inter-Semibold";
     height: 17px;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
+    
+    h2{
+        font-weight: 100;
+    }
     }
 .paragraph{
     width: 38px;
@@ -178,6 +187,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    overflow-y: hidden;
     overflow-x: auto; /* Activa el scroll horizontal */
     white-space: nowrap; /* Evita que los elementos salten de línea */
     scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
@@ -211,11 +221,12 @@ body{
 .list1 {
     /* background: purple; */
     h3{
-        width: 184px;
-        height: 15px;
-        font-size: 12px;
+        /* width: 184px;
+        height: 15px; */
+        font-size: 11px;
         font-family: "Inter-Semibold";
         color: var(--color-1);
+        font-weight: 100;
     }
 }
 .info1 {
@@ -238,6 +249,7 @@ body{
         font-family: "Inter-Regular";
         color: var(--color-1);
         margin-top: 6px;
+        font-weight: 100;
     }
 
 }
@@ -260,6 +272,7 @@ body{
         font-family: "Inter-Regular";
         color: var(--color-1);
         margin-top: 6px;
+        font-weight: 100;
     }
 }
 .list2{
@@ -272,6 +285,7 @@ body{
         font-size: 10px;
         font-family: "Inter-Regular";
         color: var(--color-1); 
+        font-weight: 100;
     }
     p{
         width: 102px;
@@ -280,6 +294,7 @@ body{
         font-family: "Inter-Semibold";
         color: var(--color-1);
         margin-top: 4px;
+        font-weight: 100;
     };
 
 }
@@ -299,15 +314,15 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 } 
-.title{
+/* .title{
     font-size: 9px;
-    width: 106px;
+    /* width: 106px; 
     font-family: "Inter-Semibold";
     height: 17px;
     display: flex;
     justify-content: center; 
     align-items: center; 
-    }
+    } */
 .paragraph{
     width: 38px;
     height: 15px;
@@ -334,15 +349,21 @@ body{
     height: 102px;
 }
 .card1 {
-    /* background: violet; */
+    background: #FFFFFF;
     width: 166px;
     height: 203px;
+    
     h3{
+        display: block;
         font-size: 10px;
         font-family: "Inter-Semibold";
-        width: 119px;
+        width: 150px;
         height: 12px;
         margin-top: 9px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 100;
     }
     
 }
@@ -408,14 +429,19 @@ body{
     }
 }
 .card2 {
-    /* background: yellow; */
+    background: #FFFFFF;
     width: 166px;
     height: 203px;
     h3{
+        display: block;
         font-size: 10px;
         font-family: "Inter-Semibold";
-        width: 142px;
+        width: 155px;
         height: 12px;
         margin-top: 9px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 100;
     }
 }
