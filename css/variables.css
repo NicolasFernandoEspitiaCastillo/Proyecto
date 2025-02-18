@@ -42,6 +42,7 @@
     --color-26: #D1D0FE; 
     --color-27: #E6D9FF; 
     --COLOR-28: hsla(0, 0%, 100%, 0.200);
+    --color-29: linear-gradient(150deg, #91B5FD, #F0DDFF);
  }
 
  /**************** Font ******************/
